@@ -31,7 +31,7 @@ public class PostRepositoryStubImpl implements PostRepository {
                 } else {
                     throw new NotFoundException("Нет такого id");
                 }
-                //optionalPost = Optional.of(post);
+
             }
         }
         return optionalPost;
