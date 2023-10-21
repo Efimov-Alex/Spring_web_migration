@@ -51,7 +51,7 @@ public class PostRepositoryStubImpl implements PostRepository {
                         throw new NotFoundException("Нет такого id");
                     }
 
-                    // postPast.setContent(post.getContent());
+
                     return postPast;
                 }
             }
